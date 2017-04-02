@@ -1,0 +1,37 @@
+<resources>
+	<string name="app_name">AssignmentTHB</string>
+
+	<string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+
+	<string name="name">Name</string>
+	<string name="email">Email</string>
+	<string name="about_me">About Me</string>
+	<string name="gender">Gender:</string>
+	<string name="date_of_birth">Birthday:</string>
+	<string name="not_found">Not Found</string>
+	<string name="male">Male</string>
+	<string name="female">Female</string>
+	<string name="update">Update</string>
+	<string name="reset">Reset</string>
+	<string name="add_more_photo">Add More Photo</string>
+	<string name="swipe_for_data">Swipe Down to Get Data</string>
+	<string name="inserted_successfully">Data Inserted Into Local DB</string>
+
+	<string name="screen_1">Sign In</string>
+	<string name="screen_2">Pull to Refresh</string>
+	<string name="screen_3">Map</string>
+	<string name="screen_4">Image Upload</string>
+	<string name="capture">Capture</string>
+	<string name="gallery">Gallery</string>
+	<string name="cancel">Cancel</string>
+	<string name="save">Save</string>
+	<string name="retake">Retake</string>
+	<string name="okay">Okay</string>
+	<string name="nearest_hospital">Get Nearest Hospital</string>
+
+	<string name="msg_entery_up_to_date">All entries up to date!</string>
+	<string name="unable_to_create_map">Unable to create map</string>
+
+	<string name="map_api_key">AIzaSyBG9jAnnWcWNNqYqtPht_c6dY6m-gtw1TI</string>
+</resources>

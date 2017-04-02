@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@color/green">
+
+	<ScrollView
+		android:id="@+id/scroll_view"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="65dp"
+		android:fillViewport="true"
+		android:scrollbars="none">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<EditText
+				android:id="@+id/et_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="20dp"
+				android:gravity="center"
+				android:hint="@string/name"
+				android:padding="5dp"
+				android:textColor="@color/white"
+				android:textSize="20sp"/>
+
+			<ImageView
+				android:id="@+id/iv_display_image"
+				android:layout_width="150dp"
+				android:layout_height="150dp"
+				android:layout_below="@id/et_name"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/image_placeholdar"
+				android:scaleType="fitXY"
+				android:textColor="@color/white"/>
+
+			<TableRow
+				android:id="@+id/table_row"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/iv_display_image"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginTop="10dp">
+
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.80"
+					android:gravity="right"
+					android:text="@string/gender"
+					android:textColor="@color/white"
+					android:textSize="16sp"
+					android:textStyle="bold"/>
+
+				<EditText
+					android:id="@+id/et_gender"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.70"
+					android:paddingLeft="5dp"
+					android:textColor="@color/white"
+					android:textSize="16sp"/>
+
+				<TextView
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="right"
+					android:text="@string/date_of_birth"
+					android:textColor="@color/white"
+					android:textSize="16sp"
+					android:textStyle="bold"/>
+
+				<EditText
+					android:id="@+id/et_dob"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.50"
+					android:paddingLeft="5dp"
+					android:text="12/12/1212"
+					android:textColor="@color/white"
+					android:textSize="16sp"/>
+			</TableRow>
+
+			<EditText
+				android:id="@+id/et_email"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/table_row"
+				android:layout_gravity="center_horizontal"
+				android:gravity="center"
+				android:hint="@string/email"
+				android:padding="5dp"
+				android:textColor="@color/white"
+				android:textSize="18sp"/>
+
+			<TextView
+				android:id="@+id/tv_label_about_me"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/et_email"
+				android:layout_gravity="center_horizontal"
+				android:gravity="center"
+				android:layout_marginTop="20dp"
+				android:text="About Me"
+				android:textColor="@color/white"
+				android:textSize="16sp"
+				android:textStyle="bold"/>
+
+			<EditText
+				android:id="@+id/et_about_me"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/tv_label_about_me"
+				android:layout_marginTop="5dp"
+				android:gravity="center"
+				android:hint="@string/about_me"
+				android:padding="5dp"
+				android:textColor="@color/white"
+				android:textSize="16sp"/>
+		</LinearLayout>
+	</ScrollView>
+
+	<Button
+		android:id="@+id/btn_update"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="bottom"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:background="@drawable/selector_button"
+		android:text="@string/update"
+		android:textColor="@color/white"
+		android:textSize="20sp"
+		android:textStyle="bold"/>
+</RelativeLayout>

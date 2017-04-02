@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res-auto"
+	  xmlns:tools="http://schemas.android.com/tools"
+	  tools:context=".ProfileDetailsActivity">
+	<item android:id="@+id/action_screen2"
+		  android:title="@string/screen_2"
+		  android:orderInCategory="100"
+		  app:showAsAction="never"/>
+	<item android:id="@+id/action_screen3"
+		  android:title="@string/screen_3"
+		  android:orderInCategory="100"
+		  app:showAsAction="never"/>
+	<item android:id="@+id/action_screen4"
+		  android:title="@string/screen_4"
+		  android:orderInCategory="100"
+		  app:showAsAction="never"/>
+</menu>

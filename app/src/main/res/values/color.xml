@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#29A228</color>
+	<color name="light_sky_color">#A6C1EC</color>
+    <color name="primaryColorActionBar">#969392</color>
+    <color name="button_selected">#ADADAD</color>
+    <color name="dialog_box">#D98012</color>
+    <color name="red"> #F44336</color>
+    <color name="blue">#014994</color>
+</resources>
